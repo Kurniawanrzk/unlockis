@@ -1,0 +1,693 @@
+@media only screen and (max-width: 600px) {
+  .section-makesure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100svh;
+  }
+
+  .section-makesure > div > h2 {
+    display: none;
+  }
+  .makesure {
+    padding-top: 40px;
+  }
+  .detail-makesure {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .detail-makesure > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #2c4257;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 10px;
+  }
+
+  .background-image-makesure > img {
+    width: 150px;
+    padding: 5px;
+    height: 100px;
+  }
+
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .action-makesure > button,
+  .action-makesure > a > button {
+    font-size: 13px;
+  }
+
+  .ipt-container {
+    display: grid;
+    width: 1000px;
+  }
+
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+
+  .addon-servis {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c4257;
+    color: white;
+    width: 50%;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+  }
+
+  #logo-addon {
+    font-size: 50px;
+  }
+  .addon:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 2px solid #2c4257;
+    color: #2c4257;
+  }
+  .select-container {
+    position: relative;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  .select-option {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .select-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .select-checkbox:checked {
+    background-color: #4c74af;
+    border-color: #4c7caf;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .section-makesure > div > h2 {
+    display: none;
+  }
+  .section-makesure {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+  .makesure {
+    padding-top: 40px;
+  }
+  .detail-makesure {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .detail-makesure > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #2c4257;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 10px;
+  }
+
+  .background-image-makesure > img {
+    width: 150px;
+    padding: 5px;
+    height: 100px;
+  }
+
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .action-makesure > button,
+  .action-makesure > a > button {
+    font-size: 13px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+
+  .addon-servis {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c4257;
+    color: white;
+    width: 50%;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+  }
+
+  #logo-addon {
+    font-size: 50px;
+  }
+  .addon:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 2px solid #2c4257;
+    color: #2c4257;
+  }
+  .select-container {
+    position: relative;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  .select-option {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .select-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .select-checkbox:checked {
+    background-color: #4c74af;
+    border-color: #4c7caf;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .section-makesure > div > h2 {
+    display: block;
+  }
+  .section-makesure {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .makesure {
+    padding-top: 40px;
+  }
+  .detail-makesure {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .detail-makesure > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #2c4257;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 10px;
+  }
+
+  .background-image-makesure > img {
+    width: 150px;
+    padding: 5px;
+    height: 100px;
+  }
+
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+
+  .addon-servis {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c4257;
+    color: white;
+    width: 15%;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+  }
+
+  #logo-addon {
+    font-size: 50px;
+  }
+  .addon:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 2px solid #2c4257;
+    color: #2c4257;
+  }
+  .select-container {
+    position: relative;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  .select-option {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .select-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .select-checkbox:checked {
+    background-color: #4c74af;
+    border-color: #4c7caf;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-makesure > div > h2 {
+    display: block;
+  }
+  .section-makesure {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .makesure {
+    padding-top: 40px;
+  }
+  .detail-makesure {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .detail-makesure > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #2c4257;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 10px;
+  }
+
+  .background-image-makesure > img {
+    width: 150px;
+    padding: 5px;
+    height: 100px;
+  }
+
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+
+  .addon-servis {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c4257;
+    color: white;
+    width: 15%;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+  }
+
+  #logo-addon {
+    font-size: 50px;
+  }
+  .addon:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 2px solid #2c4257;
+    color: #2c4257;
+  }
+  .select-container {
+    position: relative;
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  .select-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .select-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  .select-option {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .select-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .select-checkbox:checked {
+    background-color: #4c74af;
+    border-color: #4c7caf;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .section-makesure > div > h2 {
+    display: block;
+  }
+  .section-makesure {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  .makesure {
+    padding-top: 40px;
+  }
+  .detail-makesure {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .detail-makesure > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #2c4257;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+  }
+
+  .background-image-makesure > img {
+    width: 150px;
+    padding: 5px;
+    height: 100px;
+  }
+
+  .addons {
+    text-align: left !important;
+    justify-content: start;
+    display: block;
+    padding: 30px;
+  }
+  .addons > ul > li {
+    list-style-type: circle !important;
+  }
+
+  .action-makesure {
+    padding-top: 30px;
+  }
+  .background-form-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+}
